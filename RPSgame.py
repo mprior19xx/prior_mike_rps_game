@@ -4,8 +4,10 @@ from random import randint
 #  choices numbers 0, 1, 2
 choices = ["Rock", "Paper", "Scissors"]
 player = False
+# starting lives
 computerLife = 3
 playerLife = 3
+# restarting the game
 restart = ["Y", "N"]
 # making the computer pick one item at random
 computer = choices[randint(0,2)]
